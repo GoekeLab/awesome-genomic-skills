@@ -17,7 +17,7 @@ To be included, a repository should meet **all** of the following:
 - **Popularity** — as a rough guideline:
   - General skill / tool repositories: ≥ 500 GitHub stars.
   - Bioinformatics or genomics-specific repositories: ≥ 25 GitHub stars.
-  - MCP servers for life sciences: ≥ 50 GitHub stars or maintained by a recognized organization.
+  - MCP servers for life sciences: ≥ 25 GitHub stars or maintained by a recognized organization.
 - **Not deprecated** — must not be archived or abandoned.
 
 ## Format
