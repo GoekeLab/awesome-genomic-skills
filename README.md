@@ -25,6 +25,7 @@ Popular repositories of reusable skills for AI coding agents. Each entry is usef
 Skill libraries and tool collections specifically targeting genomics, bioinformatics, and life sciences work with AI coding agents.
 
 - [ClawBio](https://github.com/ClawBio/ClawBio) - The first bioinformatics-native AI agent skill library; provides reproducible, local-first skills for genomics tasks (variant calling, RNA-seq, population genetics) that work with Claude Code, Copilot, Codex, and other agents.
+- [Clair-skills](https://github.com/HKU-BAL/Clair-skills) - Agent skill for the Clair suite of variant callers (Clair3, ClairS, Clair3-RNA, Clair-Mosaic); provides intelligent model selection, command generation, and troubleshooting for germline, somatic, mosaic, and RNA-seq variant calling from long-read and short-read sequencing data.
 - [ToolUniverse](https://github.com/mims-harvard/ToolUniverse) - Ecosystem for building AI scientist systems; integrates 1,000+ machine learning models, datasets, and scientific APIs for data analysis, knowledge retrieval, and experimental design in biomedicine, with 68 pre-built agent skills covering drug discovery, precision oncology, and rare-disease diagnosis.
 
 ## MCP Servers for Life Sciences

@@ -10,14 +10,10 @@ Thank you for considering contributing to **Awesome Genomic Skills**! This is a 
 
 ## Criteria for Inclusion
 
-To be included, a repository should meet **all** of the following:
+To be included, a repository should meet the following:
 
-- **Relevance** — directly related to AI coding agents for genomics and bioinformatics.
+- **Relevance** — directly related to AI coding agents, and useful for genomics/bioinformatics.
 - **Quality** — actively maintained, well-documented, and demonstrably useful.
-- **Popularity** — as a rough guideline:
-  - General skill / tool repositories: ≥ 500 GitHub stars.
-  - Bioinformatics or genomics-specific repositories: ≥ 25 GitHub stars.
-  - MCP servers for life sciences: ≥ 25 GitHub stars or maintained by a recognized organization.
 - **Not deprecated** — must not be archived or abandoned.
 
 ## Format
@@ -35,4 +31,3 @@ Each entry should follow this format:
 ## Pull Request Guidelines
 
 - Verify all links are correct and publicly accessible.
-- Ensure your addition does not duplicate an existing entry.
