@@ -4,21 +4,10 @@
 
 ## Contents
 
-- [General AI Coding Agent Skill Collections](#general-ai-coding-agent-skill-collections)
 - [Bioinformatics and Genomics Agent Skills](#bioinformatics-and-genomics-agent-skills)
 - [MCP Servers for Life Sciences](#mcp-servers-for-life-sciences)
-- [Other Resources](#other-resources)
-
-## General AI Coding Agent Skill Collections
-
-Popular repositories of reusable skills for AI coding agents. Each entry is useful for genomics and bioinformatics coding work; descriptions explain how.
-
-- [superpowers](https://github.com/obra/superpowers) - Complete software development methodology and skills framework for coding agents; enforces TDD, spec-driven design, and subagent-driven development — practices that improve reproducibility and correctness in complex genomics pipelines.
-- [anthropics/skills](https://github.com/anthropics/skills) - Official Anthropic reference implementation and specification for Claude agent skills; the canonical starting point for building custom skills that teach Claude how to handle bioinformatics tasks and lab workflows.
-- [andrej-karpathy-skills](https://github.com/forrestchang/andrej-karpathy-skills) - Single-file coding guidelines derived from Andrej Karpathy's observations on LLM pitfalls; instils simplicity, surgical changes, and goal-driven execution — critical disciplines when AI agents write or modify genomics analysis code.
-- [awesome-copilot](https://github.com/github/awesome-copilot) - Community-curated instructions, agents, skills, and configurations for GitHub Copilot, including prompt templates applicable to scientific and data-analysis workflows.
-- [agentskills](https://github.com/agentskills/agentskills) - Official specification and documentation for the Agent Skills standard; defines the cross-platform format used by skills in this list and on Claude Code, Copilot, Codex, Cursor, and Gemini CLI.
-- [awesome-llm-skills](https://github.com/Prat011/awesome-llm-skills) - Curated list of LLM and AI agent skills, resources, and tools for customizing AI agent workflows across Claude Code, Codex, Gemini CLI, and custom agents.
+- [Benchmarks](#benchmarks)
+- [General AI Coding Agent Skill Collections](#general-ai-coding-agent-skill-collections)
 
 ## Bioinformatics and Genomics Agent Skills
 
@@ -51,9 +40,9 @@ Existing registries and lists of MCP servers:
 MCP related tools: 
 - [BioinfoMCP](https://github.com/florensiawidjaja/BioinfoMCP) - Not strictly an MCP, a converter that auto-generates MCP servers from existing tool documentation, plus a benchmark of the converted tools. Preprint available [here](https://arxiv.org/abs/2510.02139)
 
-## Other Resources
+## Benchmarks
 
-Benchmarks, evaluations, and other helpful repositories at the intersection of AI and genomics/bioinformatics.
+Benchmarks, evaluations, and other helpful resources at the intersection of AI and genomics/bioinformatics.
 
 - [BioAgent Bench](https://github.com/bioagent-bench/bioagent-bench) - 10 end-to-end bioinformatics pipeline tasks (RNA-seq, variant calling, metagenomics, single-cell, transcript quantification, etc.) with concrete output artifacts; includes a perturbation suite (corrupted inputs, decoy reference files, prompt bloat) — probes agent robustness under controlled stress and shows that correct high-level pipeline construction does not guarantee reliable step-level reasoning.
 - [BioMed-AQA](https://huggingface.co/datasets/BOBQWERA/biomed-aqa-dataset) - 327 open-ended biomedical analysis tasks across omics, visualisation, machine learning, statistics, and precision medicine; uses milestone-based grading against reference analytical steps, with a complementary 172-question multiple-choice subset. Released alongside the BioMedAgent system in Nature Biomedical Engineering — same-team caveat applies to headline scores.
@@ -61,6 +50,17 @@ Benchmarks, evaluations, and other helpful repositories at the intersection of A
 - [BixBench](https://github.com/Future-House/BixBench) - Comprehensive benchmark for LLM-based agents on real-world computational biology tasks; tests agents' ability to explore biological datasets, perform multi-step analyses, and interpret results — useful for evaluating which agents and skills perform best on genomics work.
 - [CompBioBench](https://github.com/Genentech/compbiobench-runner) - Genentech-released benchmark of 100 computational biology questions spanning single-cell, epigenomics, genomics, transcriptomics, human genetics, and ML; agents start from a bare-minimum environment and must fetch their own tools and data, with exact-string-match grading on a single ground-truth answer.
 - [LAB-Bench](https://huggingface.co/datasets/futurehouse/lab-bench) - 2,400+ multiple-choice questions across 8 subtasks of practical biology research (literature search, figure/table interpretation, database access, wet-lab protocols, sequence analysis, cloning scenarios); FutureHouse's predecessor to BixBench, probing biological knowledge and reasoning rather than agentic execution.
+
+## General AI Coding Agent Skill Collections
+
+Popular repositories of reusable skills for AI coding agents. Each entry is useful for genomics and bioinformatics coding work; descriptions explain how.
+
+- [superpowers](https://github.com/obra/superpowers) - Complete software development methodology and skills framework for coding agents; enforces TDD, spec-driven design, and subagent-driven development — practices that improve reproducibility and correctness in complex genomics pipelines.
+- [anthropics/skills](https://github.com/anthropics/skills) - Official Anthropic reference implementation and specification for Claude agent skills; the canonical starting point for building custom skills that teach Claude how to handle bioinformatics tasks and lab workflows.
+- [andrej-karpathy-skills](https://github.com/forrestchang/andrej-karpathy-skills) - Single-file coding guidelines derived from Andrej Karpathy's observations on LLM pitfalls; instils simplicity, surgical changes, and goal-driven execution — critical disciplines when AI agents write or modify genomics analysis code.
+- [awesome-copilot](https://github.com/github/awesome-copilot) - Community-curated instructions, agents, skills, and configurations for GitHub Copilot, including prompt templates applicable to scientific and data-analysis workflows.
+- [agentskills](https://github.com/agentskills/agentskills) - Official specification and documentation for the Agent Skills standard; defines the cross-platform format used by skills in this list and on Claude Code, Copilot, Codex, Cursor, and Gemini CLI.
+- [awesome-llm-skills](https://github.com/Prat011/awesome-llm-skills) - Curated list of LLM and AI agent skills, resources, and tools for customizing AI agent workflows across Claude Code, Codex, Gemini CLI, and custom agents.
 
 ## Contributing
 
