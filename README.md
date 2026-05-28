@@ -1,6 +1,12 @@
 # Awesome Genomic Skills [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> A curated list of repositories, skills, and MCP servers for working with AI coding agents (Claude Code, GitHub Copilot, Codex, Cursor, Gemini CLI, etc.) in genomics and bioinformatics.
+> A curated list of skills, and MCP servers for working with AI coding agents (Claude Code, GitHub Copilot, Codex, Cursor, Gemini CLI, etc.) in genomics and bioinformatics, alongside other useful repositories such as benchmarks and general AI coding skills collections.
+
+### What is a Skill and what is an MCP? 
+
+**Skill:** a Markdown file (plus optional scripts) that teaches an agent *how* to do a task — procedural know-how loaded into context on demand. 
+
+**MCP server:** a running service that gives an agent a *connection* to external systems (databases, tools, pipelines) via standardized tool calls.
 
 ## Contents
 
@@ -13,15 +19,33 @@
 
 Skill libraries and tool collections specifically targeting genomics, bioinformatics, and life sciences work with AI coding agents.
 
-- [ClawBio](https://github.com/ClawBio/ClawBio) - The first bioinformatics-native AI agent skill library; provides reproducible, local-first skills for genomics tasks (variant calling, RNA-seq, population genetics) that work with Claude Code, Copilot, Codex, and other agents.
-- [science-skills](https://github.com/google-deepmind/science-skills) - Google DeepMind's collection of ~36 agent skills spanning genomics, structural biology, cheminformatics, and literature search; wraps AlphaGenome (single-variant effect prediction), AlphaFold DB, and 30+ databases/tools (UniProt, Ensembl, gnomAD, GTEx, ClinVar, dbSNP, ChEMBL, PubChem, PDB, Foldseek, JASPAR, Reactome, STRING, Open Targets, Human Protein Atlas, PyMOL) for grounded, token-efficient scientific workflows. Apache-2.0; built for Google Antigravity but installable into any agent via `npx skills add`. [Technical report](https://storage.googleapis.com/deepmind-media/papers/google_deepmind_science_skills_for_antigravity_towards_efficient_and_reliable_scientific_workflows.pdf).
-- [SciAgent-skills](https://github.com/jaechang-hits/SciAgent-Skills) - 197 open-source skills for Claude Code, Cursor, Codex, and Windsurf, covering genomics-bioinformatics, proteomics-protein engineering, structural biology, drug discovery, systems biology, biostatistics, and scientific writing; achieves 92% accuracy on BixBench-Verified-50 (+26.7 pts over Claude Code baseline). A hosted web platform, OmicsHorizon, is also available.
-- [scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) - Currently 135 skills covering various scientific areas including genomics, but also broader scientific areas like geospatial science etc. 
-- [bioSkills](https://github.com/GPTomics/bioSkills) -  SKILL.md files for bioinformatics with Claude Code, covering end-to-end pipelines like RNA-seq, variants, ChIP-seq, scRNA-seq, spatial, Hi-C, proteomics, microbiome, CRISPR, metabolomics, multi-omics, immunotherapy, outbreak analysis, and Mendelian randomization tools
-- [Clair-skills](https://github.com/HKU-BAL/Clair-skills) - Agent skill for the Clair suite of variant callers (Clair3, ClairS, Clair3-RNA, Clair-Mosaic); provides intelligent model selection, command generation, and troubleshooting for germline, somatic, mosaic, and RNA-seq variant calling from long-read and short-read sequencing data.
-- [ToolUniverse](https://github.com/mims-harvard/ToolUniverse) - Ecosystem for building AI scientist systems; integrates 1,000+ machine learning models, datasets, and scientific APIs for data analysis, knowledge retrieval, and experimental design in biomedicine, with 68 pre-built agent skills covering drug discovery, precision oncology, and rare-disease diagnosis.
-- [operon](https://github.com/swaruplab/operon) - AI-powered bioinformatics IDE (Swarup Lab, UC Irvine) bundling 180+ SKILL.md-format analysis protocols covering RNA-seq, scRNA-seq, ATAC-seq, ChIP-seq, WGS/WES, spatial transcriptomics, proteomics, GWAS, and external database query patterns (PubMed, GEO, GTEx, KEGG, UniProt, JASPAR, AlphaFold). The desktop app wraps Claude Code and adds HPC/SSH integration; the protocol files themselves are MIT-licensed Markdown in the repo's `protocols/` directory, extractable for use with any SKILL.md-compatible agent.
-- [OpenClaw-Medical-Skills](https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills) - Meta-aggregation of 872 skills curated from 12+ upstream repositories, including ClawBio, ToolUniverse, GPTomics bioSkills, BioOS, and others; spans clinical workflows, genomics, drug discovery, bioinformatics pipelines, and medical device regulatory frameworks. Expect overlap with the upstream repos listed separately.
+- [ClawBio](https://github.com/ClawBio/ClawBio)
+  - **Description:** The first bioinformatics-native AI agent skill library; provides reproducible, local-first skills for genomics tasks (variant calling, RNA-seq, population genetics) that work with Claude Code, Copilot, Codex, and other agents.
+  - **Developers:** Independent open-source project built on [OpenClaw](https://openclaw.ai).
+- [science-skills](https://github.com/google-deepmind/science-skills)
+  - **Description:** Collection of ~36 agent skills spanning genomics, structural biology, cheminformatics, and literature search; wraps AlphaGenome (single-variant effect prediction), AlphaFold DB, and 30+ databases/tools (UniProt, Ensembl, gnomAD, GTEx, ClinVar, dbSNP, ChEMBL, PubChem, PDB, Foldseek, JASPAR, Reactome, STRING, Open Targets, Human Protein Atlas, PyMOL) for grounded, token-efficient scientific workflows. Apache-2.0; built for Google Antigravity but installable into any agent via `npx skills add`. [Technical report](https://storage.googleapis.com/deepmind-media/papers/google_deepmind_science_skills_for_antigravity_towards_efficient_and_reliable_scientific_workflows.pdf).
+  - **Developers:** Google DeepMind.
+- [SciAgent-skills](https://github.com/jaechang-hits/SciAgent-Skills)
+  - **Description:** 197 open-source skills for Claude Code, Cursor, Codex, and Windsurf, covering genomics-bioinformatics, proteomics-protein engineering, structural biology, drug discovery, systems biology, biostatistics, and scientific writing; achieves 92% accuracy on BixBench-Verified-50 (+26.7 pts over Claude Code baseline). The hosted OmicsHorizon web platform runs these skills in-browser.
+  - **Developers:** The team behind the [OmicsHorizon](https://omicshorizon.ai/en/) platform (Jaechang Lim).
+- [scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills)
+  - **Description:** Currently 135 skills covering various scientific areas including genomics, but also broader scientific areas like geospatial science etc.
+  - **Developers:** K-Dense AI — an MIT-founded startup (Accel, Accel Atoms, Google AI Futures Fund) building an AI research platform ([k-dense.ai](https://www.k-dense.ai)); this is one of its open-source spin-offs.
+- [bioSkills](https://github.com/GPTomics/bioSkills)
+  - **Description:** SKILL.md files for bioinformatics with Claude Code, covering end-to-end pipelines like RNA-seq, variants, ChIP-seq, scRNA-seq, spatial, Hi-C, proteomics, microbiome, CRISPR, metabolomics, multi-omics, immunotherapy, outbreak analysis, and Mendelian randomization tools.
+  - **Developers:** GPTomics ([gptomics.com](https://www.gptomics.com)), an independent research lab working at the bioinformatics/AI intersection.
+- [Clair-skills](https://github.com/HKU-BAL/Clair-skills)
+  - **Description:** Agent skill for the Clair suite of variant callers (Clair3, ClairS, Clair3-RNA, Clair-Mosaic); provides intelligent model selection, command generation, and troubleshooting for germline, somatic, mosaic, and RNA-seq variant calling from long-read and short-read sequencing data.
+  - **Developers:** Ruibang Luo's BioAI Lab at the University of Hong Kong (HKU-BAL).
+- [ToolUniverse](https://github.com/mims-harvard/ToolUniverse)
+  - **Description:** Ecosystem for building AI scientist systems; integrates 1,000+ machine learning models, datasets, and scientific APIs for data analysis, knowledge retrieval, and experimental design in biomedicine, with 68 pre-built agent skills covering drug discovery, precision oncology, and rare-disease diagnosis.
+  - **Developers:** Harvard's Zitnik Lab (AI for Medicine and Science).
+- [operon](https://github.com/swaruplab/operon)
+  - **Description:** AI-powered bioinformatics IDE bundling 180+ SKILL.md-format analysis protocols covering RNA-seq, scRNA-seq, ATAC-seq, ChIP-seq, WGS/WES, spatial transcriptomics, proteomics, GWAS, and external database query patterns (PubMed, GEO, GTEx, KEGG, UniProt, JASPAR, AlphaFold). The desktop app wraps Claude Code and adds HPC/SSH integration; the protocol files themselves are MIT-licensed Markdown in the repo's `protocols/` directory, extractable for use with any SKILL.md-compatible agent.
+  - **Developers:** Swarup Lab (UC Irvine).
+- [OpenClaw-Medical-Skills](https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills)
+  - **Description:** Meta-aggregation of 872 skills curated from 12+ upstream repositories, including ClawBio, ToolUniverse, GPTomics bioSkills, BioOS, and others; spans clinical workflows, genomics, drug discovery, bioinformatics pipelines, and medical device regulatory frameworks. Expect overlap with the upstream repos listed separately.
+  - **Developers:** FreedomIntelligence, the medical-NLP research group at CUHK-Shenzhen / Shenzhen Research Institute of Big Data (led by Benyou Wang; also behind HuatuoGPT).
 
 ## MCP Servers for Life Sciences
 
