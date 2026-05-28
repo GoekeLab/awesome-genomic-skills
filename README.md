@@ -1,6 +1,6 @@
 # Awesome Genomic Skills [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> A curated list of skills, and MCP servers for working with AI coding agents (Claude Code, GitHub Copilot, Codex, Cursor, Gemini CLI, etc.) in genomics and bioinformatics, alongside other useful repositories such as benchmarks and general AI coding skills collections.
+A curated list of skills, and MCP servers for working with AI coding agents (Claude Code, GitHub Copilot, Codex, Cursor, Gemini CLI, etc.) in genomics and bioinformatics, alongside other useful repositories such as benchmarks and general AI coding skills collections.
 
 ### What is a Skill and what is an MCP? 
 
@@ -69,12 +69,16 @@ MCP related tools:
 
 Benchmarks, evaluations, and other helpful resources at the intersection of AI and genomics/bioinformatics.
 
+Agent Capability Benchmarks: 
 - [BioAgent Bench](https://github.com/bioagent-bench/bioagent-bench) - 10 end-to-end bioinformatics pipeline tasks (RNA-seq, variant calling, metagenomics, single-cell, transcript quantification, etc.) with concrete output artifacts; includes a perturbation suite (corrupted inputs, decoy reference files, prompt bloat) — probes agent robustness under controlled stress and shows that correct high-level pipeline construction does not guarantee reliable step-level reasoning.
 - [BioMed-AQA](https://huggingface.co/datasets/BOBQWERA/biomed-aqa-dataset) - 327 open-ended biomedical analysis tasks across omics, visualisation, machine learning, statistics, and precision medicine; uses milestone-based grading against reference analytical steps, with a complementary 172-question multiple-choice subset. Released alongside the BioMedAgent system in Nature Biomedical Engineering — same-team caveat applies to headline scores.
 - [BiomniBench](https://huggingface.co/datasets/phylobio/BiomniBench-DA) - Process-level evaluation framework: 100 biomedical data-analysis tasks curated from high-impact papers by original authors or domain experts; grades the full agent trajectory (reasoning trace + final answer) against expert-designed rubrics via an LLM judge — addresses the outcome-only blind spots in benchmarks like BixBench.
 - [BixBench](https://github.com/Future-House/BixBench) - Comprehensive benchmark for LLM-based agents on real-world computational biology tasks; tests agents' ability to explore biological datasets, perform multi-step analyses, and interpret results — useful for evaluating which agents and skills perform best on genomics work.
 - [CompBioBench](https://github.com/Genentech/compbiobench-runner) - Genentech-released benchmark of 100 computational biology questions spanning single-cell, epigenomics, genomics, transcriptomics, human genetics, and ML; agents start from a bare-minimum environment and must fetch their own tools and data, with exact-string-match grading on a single ground-truth answer.
 - [LAB-Bench](https://huggingface.co/datasets/futurehouse/lab-bench) - 2,400+ multiple-choice questions across 8 subtasks of practical biology research (literature search, figure/table interpretation, database access, wet-lab protocols, sequence analysis, cloning scenarios); FutureHouse's predecessor to BixBench, probing biological knowledge and reasoning rather than agentic execution.
+
+Skills benchmarks: 
+- [SkillsBench](https://github.com/benchflow-ai/skillsbench) - General-purpose benchmark for measuring whether agent skills actually help: 86 tasks across 11 domains (including healthcare), each run under three conditions — no skills, curated skills, and self-generated skills — with deterministic verifiers. Across 7,308 trajectories, curated skills lifted average pass rate by +16.2 pts (ranging from +4.5 pts for software engineering to +51.9 pts for healthcare), while self-generated skills gave no average benefit and focused 2–3 module skills beat comprehensive documentation. Not bioinformatics-specific, but the canonical "do skills actually work" benchmark. [Paper](https://arxiv.org/abs/2602.12670).
 
 ## General AI Coding Agent Skill Collections
 
