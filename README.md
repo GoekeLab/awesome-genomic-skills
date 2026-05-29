@@ -19,12 +19,12 @@ A curated list of skills, and MCP servers for working with AI coding agents (Cla
 
 Skill libraries and tool collections specifically targeting genomics, bioinformatics, and life sciences work with AI coding agents.
 
-- [ClawBio](https://github.com/ClawBio/ClawBio)
-  - **Description:** The first bioinformatics-native AI agent skill library; provides reproducible, local-first skills for genomics tasks (variant calling, RNA-seq, population genetics) that work with Claude Code, Copilot, Codex, and other agents.
-  - **Developers:** Independent open-source project built on [OpenClaw](https://openclaw.ai).
 - [science-skills](https://github.com/google-deepmind/science-skills)
   - **Description:** Collection of ~36 agent skills spanning genomics, structural biology, cheminformatics, and literature search; wraps AlphaGenome (single-variant effect prediction), AlphaFold DB, and 30+ databases/tools (UniProt, Ensembl, gnomAD, GTEx, ClinVar, dbSNP, ChEMBL, PubChem, PDB, Foldseek, JASPAR, Reactome, STRING, Open Targets, Human Protein Atlas, PyMOL) for grounded, token-efficient scientific workflows. Apache-2.0; built for Google Antigravity but installable into any agent via `npx skills add`. [Technical report](https://storage.googleapis.com/deepmind-media/papers/google_deepmind_science_skills_for_antigravity_towards_efficient_and_reliable_scientific_workflows.pdf).
   - **Developers:** Google DeepMind.
+- [ClawBio](https://github.com/ClawBio/ClawBio)
+  - **Description:** The first bioinformatics-native AI agent skill library; provides reproducible, local-first skills for genomics tasks (variant calling, RNA-seq, population genetics) that work with Claude Code, Copilot, Codex, and other agents.
+  - **Developers:** Independent open-source project built on [OpenClaw](https://openclaw.ai).
 - [SciAgent-skills](https://github.com/jaechang-hits/SciAgent-Skills)
   - **Description:** 197 open-source skills for Claude Code, Cursor, Codex, and Windsurf, covering genomics-bioinformatics, proteomics-protein engineering, structural biology, drug discovery, systems biology, biostatistics, and scientific writing; achieves 92% accuracy on BixBench-Verified-50 (+26.7 pts over Claude Code baseline). The hosted OmicsHorizon web platform runs these skills in-browser.
   - **Developers:** The team behind the [OmicsHorizon](https://omicshorizon.ai/en/) platform (Jaechang Lim).
@@ -84,12 +84,20 @@ Skills benchmarks:
 
 Popular repositories of reusable skills for AI coding agents. Each entry is useful for genomics and bioinformatics coding work; descriptions explain how.
 
+Skills specs: 
+- [agentskills](https://github.com/agentskills/agentskills) - Official specification and documentation for the Agent Skills standard; defines the cross-platform format used by skills in this list and on Claude Code, Copilot, Codex, Cursor, and Gemini CLI.
+
+General skills collections (non-exhaustive):
 - [superpowers](https://github.com/obra/superpowers) - Complete software development methodology and skills framework for coding agents; enforces TDD, spec-driven design, and subagent-driven development — practices that improve reproducibility and correctness in complex genomics pipelines.
 - [anthropics/skills](https://github.com/anthropics/skills) - Official Anthropic reference implementation and specification for Claude agent skills; the canonical starting point for building custom skills that teach Claude how to handle bioinformatics tasks and lab workflows.
+- [openai/skills](https://github.com/openai/skills) - OpenAI's official Skills Catalog for Codex; ships system, curated, and experimental agent skills installable via the in-Codex `$skill-installer`, built on the cross-platform Agent Skills open standard. The OpenAI counterpart to anthropics/skills, and a useful reference for packaging reusable, repeatable bioinformatics coding workflows for Codex.
 - [andrej-karpathy-skills](https://github.com/forrestchang/andrej-karpathy-skills) - Single-file coding guidelines derived from Andrej Karpathy's observations on LLM pitfalls; instils simplicity, surgical changes, and goal-driven execution — critical disciplines when AI agents write or modify genomics analysis code.
 - [awesome-copilot](https://github.com/github/awesome-copilot) - Community-curated instructions, agents, skills, and configurations for GitHub Copilot, including prompt templates applicable to scientific and data-analysis workflows.
-- [agentskills](https://github.com/agentskills/agentskills) - Official specification and documentation for the Agent Skills standard; defines the cross-platform format used by skills in this list and on Claude Code, Copilot, Codex, Cursor, and Gemini CLI.
 - [awesome-llm-skills](https://github.com/Prat011/awesome-llm-skills) - Curated list of LLM and AI agent skills, resources, and tools for customizing AI agent workflows across Claude Code, Codex, Gemini CLI, and custom agents.
+
+## Notable other Awesome Lists! 
+
+- [Awesome-Scientific-Skills](https://github.com/InternScience/Awesome-Scientific-Skills) - An open, curated collection of agent skills for scientific research spanning bioinformatics, cheminformatics, data analysis, scientific writing, and literature search; currently a curated link collection, with plans to consolidate selected skills into a unified, clone-ready repository. Developed by InternScience, the open-source hub of the AI for Science Center at Shanghai AI Laboratory, which open-sources agents, LLMs/MLLMs, tools, and datasets to accelerate scientific discovery across disciplines.
 
 ## Contributing
 
