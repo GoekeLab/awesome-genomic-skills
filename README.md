@@ -1,6 +1,6 @@
 # Awesome Genomic Skills [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-A curated list of skills, and MCP servers for working with AI coding agents (Claude Code, GitHub Copilot, Codex, Cursor, Gemini CLI, etc.) in genomics and bioinformatics, alongside other useful repositories such as benchmarks and general AI coding skills collections.
+A curated list of skills and MCP servers for working with AI coding agents (Claude Code, GitHub Copilot, Codex, Cursor, Gemini CLI, etc.) in genomics and bioinformatics, alongside other useful repositories such as benchmarks and general AI coding skills collections.
 
 ### What is a Skill and what is an MCP? 
 
@@ -14,6 +14,7 @@ A curated list of skills, and MCP servers for working with AI coding agents (Cla
 - [MCP Servers for Life Sciences](#mcp-servers-for-life-sciences)
 - [Benchmarks](#benchmarks)
 - [General AI Coding Agent Skill Collections](#general-ai-coding-agent-skill-collections)
+- [Other Notable Awesome Lists!](#other-notable-awesome-lists)
 
 ## Bioinformatics and Genomics Agent Skills
 
@@ -60,11 +61,11 @@ Model Context Protocol (MCP) servers that give AI agents direct access to bioinf
 - [ChatSpatial](https://github.com/cafferychen777/ChatSpatial) - MCP server for spatial transcriptomics analysis through natural language; supports Scanpy, Squidpy, cell communication analysis, and spatial domain identification.
 - [biomcp](https://github.com/genomoncology/biomcp) - Single MCP server able to query multiple information sources, including clinical trials, genetic data & published medical literature. 
 - [gget-mcp](https://github.com/longevity-genie/gget-mcp) -  MCP server wrapping the Pachter Lab [gget](https://github.com/pachterlab/gget) bioinformatics toolkit. Exposes 13 tools covering gene search and metadata (Ensembl), sequence retrieval, BLAST/BLAT/MUSCLE alignment, expression data (ARCHS4), functional enrichment (Enrichr), protein structure (PDB, AlphaFold), cancer mutations (COSMIC), and single-cell queries (CellxGene).
-- [Seqera MCP](https://docs.seqera.io/platform-cloud/seqera-mcp/overview) - Hosted MCP server from Seqera Labs (the developers of nextflow) exposing the Seqera Platform (workflow launch/management), Wave (container provisioning), nf-core modules, and SRA/ENA/GEO retrieval. 
+- [Seqera MCP](https://docs.seqera.io/platform-cloud/seqera-mcp/overview) - Hosted MCP server from Seqera Labs (the developers of Nextflow) exposing the Seqera Platform (workflow launch/management), Wave (container provisioning), nf-core modules, and SRA/ENA/GEO retrieval. 
 - [knowledgebase-mcp](https://github.com/biocontext-ai/knowledgebase-mcp) - BioContextAI Knowledgebase MCP server, included in the BioContextAI registry (below), one of the most comprehensive single MCP packages (wraps STRINGDb, Open Targets, Reactome, UniProt, HPA, KEGG, AlphaFold, Ensembl, ClinicalTrials.gov, bioRxiv, etc.)
 
 Existing registries and lists of MCP servers: 
-- [BioContextAI Registry](https://github.com/biocontext-ai/registry/) - Community-curated catalogue of biomedical MCP servers, with submission criteria requiring biomedical focus, free academic access, OSI-approved open-source licenses, and MCP specification compliance. Ships a [cookiecutter template](https://github.com/biocontext-ai/mcp-server-cookiecutter) for new servers and follows Schema.org ontologies for metadata.[A community hub for agentic biomedical systems](https://www.nature.com/articles/s41587-025-02900-9)
+- [BioContextAI Registry](https://github.com/biocontext-ai/registry/) - Community-curated catalogue of biomedical MCP servers, with submission criteria requiring biomedical focus, free academic access, OSI-approved open-source licenses, and MCP specification compliance. Ships a [cookiecutter template](https://github.com/biocontext-ai/mcp-server-cookiecutter) for new servers and follows Schema.org ontologies for metadata. [A community hub for agentic biomedical systems](https://www.nature.com/articles/s41587-025-02900-9)
 - [MCPmed](https://github.com/MCPmed) -  Reference MCP implementations (GEO, STRING, UCSC Cell Browser, PLSDB) plus a cookiecutter template and HTML "breadcrumbs" discovery mechanism for transitioning legacy services to MCP. Published as a call paper in Briefings in Bioinformatics. [MCPmed: a call for Model Context Protocol-enabled bioinformatics web services for LLM-driven discovery](https://academic.oup.com/bib/article/27/1/bbag076/8495038)
 - [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers#bio) - General-purpose MCP server list with a Biology, Medicine, and Bioinformatics subsection.
 
@@ -101,7 +102,7 @@ General skills collections (non-exhaustive):
 - [awesome-copilot](https://github.com/github/awesome-copilot) - Community-curated instructions, agents, skills, and configurations for GitHub Copilot, including prompt templates applicable to scientific and data-analysis workflows.
 - [awesome-llm-skills](https://github.com/Prat011/awesome-llm-skills) - Curated list of LLM and AI agent skills, resources, and tools for customizing AI agent workflows across Claude Code, Codex, Gemini CLI, and custom agents.
 
-## Notable other Awesome Lists! 
+## Other Notable Awesome Lists! 
 
 - [Awesome-Scientific-Skills](https://github.com/InternScience/Awesome-Scientific-Skills) - An open, curated collection of agent skills for scientific research spanning bioinformatics, cheminformatics, data analysis, scientific writing, and literature search; currently a curated link collection, with plans to consolidate selected skills into a unified, clone-ready repository. Developed by InternScience, the open-source hub of the AI for Science Center at Shanghai AI Laboratory, which open-sources agents, LLMs/MLLMs, tools, and datasets to accelerate scientific discovery across disciplines.
 
