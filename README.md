@@ -10,11 +10,15 @@ A curated list of skills and MCP servers for working with AI coding agents (Clau
 
 ## Contents
 
-- [Bioinformatics and Genomics Agent Skills](#bioinformatics-and-genomics-agent-skills)
-- [MCP Servers for Life Sciences](#mcp-servers-for-life-sciences)
-- [Benchmarks](#benchmarks)
-- [General AI Coding Agent Skill Collections](#general-ai-coding-agent-skill-collections)
-- [Other Notable Awesome Lists!](#other-notable-awesome-lists)
+- [Awesome Genomic Skills ](#awesome-genomic-skills-)
+    - [What is a Skill and what is an MCP?](#what-is-a-skill-and-what-is-an-mcp)
+  - [Contents](#contents)
+  - [Bioinformatics and Genomics Agent Skills](#bioinformatics-and-genomics-agent-skills)
+  - [MCP Servers for Life Sciences](#mcp-servers-for-life-sciences)
+  - [Benchmarks](#benchmarks)
+  - [General AI Coding Agent Skill Collections](#general-ai-coding-agent-skill-collections)
+  - [Other Notable Awesome Lists!](#other-notable-awesome-lists)
+  - [Contributing](#contributing)
 
 ## Bioinformatics and Genomics Agent Skills
 
@@ -29,6 +33,9 @@ Skill libraries and tool collections specifically targeting genomics, bioinforma
 - [anthropics/life-sciences](https://github.com/anthropics/life-sciences)
   - **Description:** Anthropic's "Claude for Life Sciences" Claude Code Marketplace — a hybrid bundle rather than a pure skills library. It mixes first-party procedural/method skills (`single-cell-rna-qc`, `scvi-tools`, `nextflow-development`, `clinical-trial-protocol-skill`, `scientific-problem-selection`) with a large set of partner MCP servers and data integrations (10x Genomics, ChEMBL, Open Targets, PubMed, bioRxiv, Synapse, ToolUniverse, BioRender, Medidata, Cortellis, Owkin, Consensus, and more). Note that many entries are MCP servers, not skills.
   - **Developers:** Anthropic (with commercial life-sciences partners).
+- [sample-kiro-power-life-sciences](https://github.com/aws-samples/sample-kiro-power-life-sciences)
+  - **Description:** AWS sample bundle for the Kiro IDE: 24 MCP servers wrapping 100+ databases/tools across genomics, proteomics, structural biology, and clinical/pharma (NCBI, Ensembl, ClinVar, gnomAD, UniProt, STRING, PDB, AlphaFold, ChEMBL, Open Targets, etc.), plus 10 domain skills and 16 workflows, with cross-database search and AWS HealthOmics pipeline execution. MIT-0; the MCP servers use standard MCP and are portable, though the skills and workflows are built for Kiro. [Blog post](https://aws.amazon.com/blogs/publicsector/accelerating-life-sciences-research-with-kiro-a-unified-ai-interface-to-100-open-source-databases/).
+  - **Developers:** AWS (AWS Samples).
 - [ClawBio](https://github.com/ClawBio/ClawBio)
   - **Description:** The first bioinformatics-native AI agent skill library; provides reproducible, local-first skills for genomics tasks (variant calling, RNA-seq, population genetics) that work with Claude Code, Copilot, Codex, and other agents.
   - **Developers:** Independent open-source project built on [OpenClaw](https://openclaw.ai).
