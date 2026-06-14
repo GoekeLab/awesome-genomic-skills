@@ -48,6 +48,9 @@ Skill libraries and tool collections specifically targeting genomics, bioinforma
 - [bioSkills](https://github.com/GPTomics/bioSkills)
   - **Description:** SKILL.md files for bioinformatics with Claude Code, covering end-to-end pipelines like RNA-seq, variants, ChIP-seq, scRNA-seq, spatial, Hi-C, proteomics, microbiome, CRISPR, metabolomics, multi-omics, immunotherapy, outbreak analysis, and Mendelian randomization tools.
   - **Developers:** GPTomics ([gptomics.com](https://www.gptomics.com)), an independent research lab working at the bioinformatics/AI intersection.
+- [Conserved Primer Design](https://github.com/KevinSpringer1/conserved-primer-design)
+  - **Description:** Agent skill package for calling the VirusPrimerPro website Agent API to run conserved-region, primer-site, PhyloGuide, and tNGS amplicon panel workflows. Includes API helpers, NCBI/MAFFT preparation, taxonomy and reference curation, specificity screening, primer wet-lab QC, panel pooling, validation reports, and compatibility notes for Codex, Claude Code, VS Code/Copilot, and generic agents.
+  - **Developers:** KevinSpringer1.
 - [Clair-skills](https://github.com/HKU-BAL/Clair-skills)
   - **Description:** Agent skill for the Clair suite of variant callers (Clair3, ClairS, Clair3-RNA, Clair-Mosaic); provides intelligent model selection, command generation, and troubleshooting for germline, somatic, mosaic, and RNA-seq variant calling from long-read and short-read sequencing data.
   - **Developers:** Ruibang Luo's BioAI Lab at the University of Hong Kong (HKU-BAL).
