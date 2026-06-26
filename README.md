@@ -107,6 +107,7 @@ General skills collections (non-exhaustive):
 - [openai/skills](https://github.com/openai/skills) - OpenAI's official Skills Catalog for Codex; ships system, curated, and experimental agent skills installable via the in-Codex `$skill-installer`, built on the cross-platform Agent Skills open standard. The OpenAI counterpart to anthropics/skills, and a useful reference for packaging reusable, repeatable bioinformatics coding workflows for Codex.
 - [andrej-karpathy-skills](https://github.com/forrestchang/andrej-karpathy-skills) - Single-file coding guidelines derived from Andrej Karpathy's observations on LLM pitfalls; instils simplicity, surgical changes, and goal-driven execution — critical disciplines when AI agents write or modify genomics analysis code.
 - [awesome-copilot](https://github.com/github/awesome-copilot) - Community-curated instructions, agents, skills, and configurations for GitHub Copilot, including prompt templates applicable to scientific and data-analysis workflows.
+- [linkedin](https://github.com/Linked-API/linkedin-skills/tree/main/linkedin) - Fetch LinkedIn profiles, search people and companies, send messages, manage connections, create posts, react, comment, and run custom LinkedIn workflows from Claude Code, Codex, Cursor, and Windsurf.
 - [awesome-llm-skills](https://github.com/Prat011/awesome-llm-skills) - Curated list of LLM and AI agent skills, resources, and tools for customizing AI agent workflows across Claude Code, Codex, Gemini CLI, and custom agents.
 
 ## Other Notable Awesome Lists! 
