@@ -17,6 +17,7 @@ A curated list of skills and MCP servers for working with AI coding agents (Clau
   - [MCP Servers for Life Sciences](#mcp-servers-for-life-sciences)
   - [Benchmarks](#benchmarks)
   - [General AI Coding Agent Skill Collections](#general-ai-coding-agent-skill-collections)
+  - [Self-Hosted & Open-Source Agent Runtimes](#self-hosted--open-source-agent-runtimes)
   - [Other Notable Awesome Lists!](#other-notable-awesome-lists)
   - [Contributing](#contributing)
 
@@ -111,6 +112,12 @@ General skills collections (non-exhaustive):
 - [andrej-karpathy-skills](https://github.com/forrestchang/andrej-karpathy-skills) - Single-file coding guidelines derived from Andrej Karpathy's observations on LLM pitfalls; instils simplicity, surgical changes, and goal-driven execution — critical disciplines when AI agents write or modify genomics analysis code.
 - [awesome-copilot](https://github.com/github/awesome-copilot) - Community-curated instructions, agents, skills, and configurations for GitHub Copilot, including prompt templates applicable to scientific and data-analysis workflows.
 - [awesome-llm-skills](https://github.com/Prat011/awesome-llm-skills) - Curated list of LLM and AI agent skills, resources, and tools for customizing AI agent workflows across Claude Code, Codex, Gemini CLI, and custom agents.
+
+## Self-Hosted & Open-Source Agent Runtimes
+
+Agent runtimes that run on-premise or locally without cloud APIs — relevant for HPC clusters, air-gapped systems, and environments with HIPAA or institutional firewall restrictions where cloud-based agents (Claude Code, Copilot, Codex, Cursor) are not an option.
+
+- [gptme](https://github.com/gptme/gptme) — Open-source, terminal-native coding agent that runs fully locally with Ollama or any OpenAI-compatible model endpoint; no cloud API required. Supports the Agent Skills (SKILL.md) standard natively, making the skill libraries in this list usable without modification. Built for long unattended sessions — hours-long Snakemake and Nextflow pipeline runs, subprocess and container (Docker/Singularity) execution, and multi-modal input (logs, plots, data files). The primary self-hosted option for computational biologists in HIPAA-restricted, air-gapped, or cloud-cost-constrained HPC environments. [gptme.org](https://gptme.org)
 
 ## Other Notable Awesome Lists! 
 
