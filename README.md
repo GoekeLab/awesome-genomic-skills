@@ -65,6 +65,7 @@ Skill libraries and tool collections specifically targeting genomics, bioinforma
 
 Model Context Protocol (MCP) servers that give AI agents direct access to bioinformatics databases, tools, and analysis pipelines.
 
+- [Ask Helena](https://github.com/helena-bioinformatics/ask-helena-mcp) - Official Helena Bioinformatics MCP for source-cited answers about the company and its published bioinformatics products. It is public and read-only, excludes private content and patient data, and does not perform clinical variant interpretation. [Website](https://www.helena.bio/ask) · [Official Registry](https://registry.modelcontextprotocol.io/?q=io.github.helena-bioinformatics%2Fask-helena)
 - [ChatSpatial](https://github.com/cafferychen777/ChatSpatial) - MCP server for spatial transcriptomics analysis through natural language; supports Scanpy, Squidpy, cell communication analysis, and spatial domain identification.
 - [biomcp](https://github.com/genomoncology/biomcp) - Single MCP server able to query multiple information sources, including clinical trials, genetic data & published medical literature. 
 - [gget-mcp](https://github.com/longevity-genie/gget-mcp) -  MCP server wrapping the Pachter Lab [gget](https://github.com/pachterlab/gget) bioinformatics toolkit. Exposes 13 tools covering gene search and metadata (Ensembl), sequence retrieval, BLAST/BLAT/MUSCLE alignment, expression data (ARCHS4), functional enrichment (Enrichr), protein structure (PDB, AlphaFold), cancer mutations (COSMIC), and single-cell queries (CellxGene).
