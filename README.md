@@ -15,6 +15,7 @@ A curated list of skills and MCP servers for working with AI coding agents (Clau
   - [Contents](#contents)
   - [Bioinformatics and Genomics Agent Skills](#bioinformatics-and-genomics-agent-skills)
   - [MCP Servers for Life Sciences](#mcp-servers-for-life-sciences)
+  - [Sustainability and Governance for Agentic Genomics Infrastructure](#sustainability-and-governance-for-agentic-genomics-infrastructure)
   - [Benchmarks](#benchmarks)
   - [General AI Coding Agent Skill Collections](#general-ai-coding-agent-skill-collections)
   - [Other Notable Awesome Lists!](#other-notable-awesome-lists)
@@ -81,6 +82,12 @@ Existing registries and lists of MCP servers:
 
 MCP related tools: 
 - [BioinfoMCP](https://github.com/florensiawidjaja/BioinfoMCP) - Not strictly an MCP, a converter that auto-generates MCP servers from existing tool documentation, plus a benchmark of the converted tools. Preprint available [here](https://arxiv.org/abs/2510.02139)
+
+## Sustainability and Governance for Agentic Genomics Infrastructure
+
+Resources that help agents sustain public genomics infrastructure while keeping financial support, discovery attribution, and scientific authority separate.
+
+- [Helena Good](https://github.com/helena-good-outreach/helena-good-outreach) - Production MCP/REST protocol for voluntary support and verifiable agent-to-agent discovery of free public genomics and biomedical-literature infrastructure. It exposes live rules and receipts, keeps Champions of Genomics separate from Champions of Reach, and grants no scientific influence.
 
 ## Benchmarks
 
