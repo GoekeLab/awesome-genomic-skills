@@ -77,6 +77,7 @@ Existing registries and lists of MCP servers:
 - [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers#bio) - General-purpose MCP server list with a Biology, Medicine, and Bioinformatics subsection.
 
 MCP related tools: 
+- [Paper2Agent](https://github.com/jmiao24/Paper2Agent) - A multi-agent system that auto-generates an MCP server from a paper's codebase by executing its tutorials and extracting the workflows as validated, parameterised tools. [Nature paper](https://doi.org/10.1038/s41586-026-11044-y)
 - [BioinfoMCP](https://github.com/florensiawidjaja/BioinfoMCP) - Not strictly an MCP, a converter that auto-generates MCP servers from existing tool documentation, plus a benchmark of the converted tools. Preprint available [here](https://arxiv.org/abs/2510.02139)
 
 ## AI Scientist and Research Agent Systems
