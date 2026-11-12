@@ -88,6 +88,10 @@ Standalone multi-agent applications that run end-to-end research workflows (e.g.
   - **Description:** Independent implementation of Google DeepMind's AI co-scientist; takes a natural-language research goal and returns a tournament-ranked overview of novel hypotheses via six agents (Generation, Reflection, Elo-tournament Ranking, Evolution, Proximity, Meta-review) under a Supervisor. Grounds hypotheses with PubMed, arXiv, Europe PMC, and web search (with URL provenance logging), and uses a pinned copy of DeepMind's [science-skills](https://github.com/google-deepmind/science-skills). Runs on an LLM API key (OpenRouter, Anthropic, OpenAI, Gemini) or a Claude Code / Codex subscription; includes a cross-model benchmarking harness. General-science rather than genomics-specific. Apache-2.0.
   - **Developers:** Kaimen Inc, co-founded by Kuan-Lin Huang ([Huang Lab | Precision Omics](https://labs.icahn.mssm.edu/kuanhuanglab/), Icahn School of Medicine at Mount Sinai); not affiliated with Google or the AI co-scientist paper's authors.
 
+- [SYNAPTIK](https://github.com/Fr4n0b/synaptik)
+  - **Description:** Evidence-structure analysis and multi-class genomic reconciliation engine for human iPSC-neuron research. Indexes literature experiment records (Europe PMC, PubMed) with LLM extraction and verbatim-quote validation, detects single-lab publication bias, and reconciles findings against SpliceAI predictions, gnomAD constraint, ClinVar, and DepMap to surface cross-layer contradictions before committing to wet-lab assays. Includes 114 regression tests, proactive API-contract drift monitoring, and a local web interface. MIT.
+  - **Developers:** Francesco Nobile (Center for Genomic Medicine, MGH / Harvard Medical School & University of Pavia).
+
 ## Benchmarks
 
 Benchmarks, evaluations, and other helpful resources at the intersection of AI and genomics/bioinformatics.
