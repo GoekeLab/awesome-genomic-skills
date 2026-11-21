@@ -48,6 +48,7 @@ Skill libraries and tool collections specifically targeting genomics, bioinforma
 - [Clair-skills](https://github.com/HKU-BAL/Clair-skills)
   - **Description:** Agent skill for the Clair suite of variant callers (Clair3, ClairS, Clair3-RNA, Clair-Mosaic); provides intelligent model selection, command generation, and troubleshooting for germline, somatic, mosaic, and RNA-seq variant calling from long-read and short-read sequencing data.
   - **Developers:** Ruibang Luo's BioAI Lab at the University of Hong Kong (HKU-BAL).
+- [s2f-agent](https://github.com/JiaqiLi1024/s2f-agent) - Codex skills and routing playbooks for sequence-to-function genomics, including variant-effect prediction, sequence embeddings, track prediction, and model fine-tuning.
 - [ToolUniverse](https://github.com/mims-harvard/ToolUniverse)
   - **Description:** Ecosystem for building AI scientist systems; integrates 1,000+ machine learning models, datasets, and scientific APIs for data analysis, knowledge retrieval, and experimental design in biomedicine, with 68 pre-built agent skills covering drug discovery, precision oncology, and rare-disease diagnosis.
   - **Developers:** Harvard's Zitnik Lab (AI for Medicine and Science).
